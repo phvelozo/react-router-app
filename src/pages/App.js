@@ -5,16 +5,16 @@ class App extends Component {
   render() {
     return (
       <div>
-        <nav className="nav has-shadow">
-          <div className="nav-left">
-            <NavLink to="/"
-              className="nav-item is-tab"
+        <nav class="navbar" aria-label="main navigation">
+          <div class="navbar-brand">            
+            <NavLink exact to="/"
+              className="navbar-item"
               activeClassName="is-active is-tab">Home</NavLink>
             <NavLink to="/Cursos"
-              className="nav-item"
+              className="navbar-item"
               activeClassName="is-active is-tab">Cursos</NavLink>
             <NavLink to="/Sobre"
-              className="nav-item"
+              className="navbar-item"
               activeClassName="is-active is-tab">Sobre</NavLink>
           </div>
         </nav>
@@ -30,3 +30,5 @@ class App extends Component {
 }
 
 export default App;
+
+

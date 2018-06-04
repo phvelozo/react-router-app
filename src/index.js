@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Cursos from './components/Cursos';
 import Sobre from './components/Sobre';
 
+
 import registerServiceWorker from './registerServiceWorker';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
